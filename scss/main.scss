@@ -16,7 +16,7 @@
 @import "theme/reset";
 
 
-// Custom Scss 
+// Custom Scss
 @import "theme/elements";
 @import "theme/header";
 @import "theme/home";
@@ -25,3 +25,32 @@
 @import "theme/blog";
 @import "theme/contact";
 @import "theme/footer";
+
+section.home-about-area.pt-120 {
+  background:$blue;
+  color:$white;
+}
+.section-gap{
+  background: $blue;
+}
+section.services-area.section-gap {
+    background: $blue;
+    color:$black;
+}
+.home-about-right h1, h1.mb-10{
+  color:$th-color;
+}
+.title.text-center{
+  color:$offwhite;
+}
+
+.single-services .lnr {
+
+    color: $fh-color;
+}
+p {
+    color: $white;
+}
+h4 {
+  color:$white;
+}
